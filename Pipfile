@@ -9,6 +9,8 @@ pandas = "*"
 numpy = "*"
 plotly = "*"
 nbformat = "*"
+seaborn = "*"
+kaleido = "*"
 
 [dev-packages]
 ipykernel = "*"
