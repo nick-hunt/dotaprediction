@@ -11,6 +11,9 @@ plotly = "*"
 nbformat = "*"
 seaborn = "*"
 kaleido = "*"
+spektral = "*"
+scikit-learn = "*"
+sklearn = "*"
 
 [dev-packages]
 ipykernel = "*"
