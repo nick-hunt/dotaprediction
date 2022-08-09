@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from spektral.data import Dataset, Graph
 
-class DotaDatasetV1(Dataset):
+class DotaV1(Dataset):
     def __init__(self, df_combined: pd.DataFrame, features: pd.DataFrame,  **kwargs):
         '''Generates a list of Graph objects
         df_combined: match result (radiant_win), hero picks (hero0_pick ...), hero slots (hero0_slot...) [dataframe]
