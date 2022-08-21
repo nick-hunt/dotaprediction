@@ -3,7 +3,7 @@ This repository contains the code used for my MSc Project: Predicting the outcom
 Instructions are provided below for running different sections of the code.
 
 # Repository description:
-```bash
+```yaml
 notebooks/
     data_acquisition.ipynb          Scripting to acquire the list of matches and respective match picks, and combining them
     dataset.py                      Defines DotaV1 and DotaV2, subclasses of the Spektral Dataset class, including initialisation methods
