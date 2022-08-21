@@ -4,18 +4,31 @@ Instructions are provided below for running different sections of the code.
 
 # Repository description:
 notebooks/
-    data_acquisition.ipynb          description
+
+    data_acquisition.ipynb__________description
+
     dataset.py                      description
+
     exploratory.ipynb               description
+
     filtering.ipynb                 description
+
     graph_data_creation.ipynb       description
+
     modelling.ipynb                 description
+
     modelling_2.ipynb               description
+
     modelling_3.ipynb               description
+
     plotting.ipynb                  description
+
 .gitignore                          description
+
 Pipfile                             description
+
 Pipfile.lock                        description
+
 README.md                           description
 # Instructions for use
 ## Clone repository
