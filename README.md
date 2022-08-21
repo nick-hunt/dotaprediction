@@ -3,33 +3,22 @@ This repository contains the code used for my MSc Project: Predicting the outcom
 Instructions are provided below for running different sections of the code.
 
 # Repository description:
+```bash
 notebooks/
-
-    data_acquisition.ipynb          description
-
+    data_acquisition.ipynb          Scripting to acquire the list of matches and respective match picks, and combining them
     dataset.py                      Defines DotaV1 and DotaV2, subclasses of the Spektral Dataset class, including initialisation methods
-
-    exploratory.ipynb               description
-
-    filtering.ipynb                 description
-
-    graph_data_creation.ipynb       description
-
-    modelling.ipynb                 description
-
-    modelling_2.ipynb               description
-
-    modelling_3.ipynb               description
-
-    plotting.ipynb                  description
-
-.gitignore                          description
-
-Pipfile                             description
-
-Pipfile.lock                        description
-
-README.md                           description
+    exploratory.ipynb               Data quality checks and insights
+    filtering.ipynb                 Creates and saves dataframe of standard filter, mmr group filters and duration group filters
+    graph_data_creation.ipynb       Takes the combined matches/picks csv and generates DotaV1 and DotaV2 datasets, and scales features
+    modelling.ipynb                 Models graph data using single team perspective
+    modelling_2.ipynb               Models graph data using multi team perspective
+    modelling_3.ipynb               Models match data using single team perspective and logistic regression
+    plotting.ipynb                  Creates plots to be used in the report
+.gitignore                          Contains file types and folders not to be tracked with Git
+Pipfile                             Contains information for pipenv to create and maintain Python virtual environment
+Pipfile.lock                        Contains information for pipenv to create and maintain Python virtual environment
+README.md                           Readme markdown
+```
 # Instructions for use
 ## Clone repository
 The address for this repository is:
