@@ -5,9 +5,9 @@ Instructions are provided below for running different sections of the code.
 # Repository description:
 notebooks/
 
-    data_acquisition.ipynb__________description
+    data_acquisition.ipynb          description
 
-    dataset.py                      description
+    dataset.py                      Defines DotaV1 and DotaV2, subclasses of the Spektral Dataset class, including initialisation methods
 
     exploratory.ipynb               description
 
