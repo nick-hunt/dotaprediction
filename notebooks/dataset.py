@@ -97,7 +97,7 @@ class DotaV2(Dataset):
         # Label
         y = float(match['radiant_win'])
 
-        g = Graph(x=x, a=a, y=y)
+        g = Graph(x=x, a=a, y=y, e=e)
         return g
         
     def read(self):
